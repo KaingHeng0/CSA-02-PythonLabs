@@ -1,7 +1,6 @@
 from WeatherAppFunctions import collect_weather_data, \
     calculate_average, find_highest, find_lowest, present_results
-from plot_data import plot_temperatures
-
+from datavisualization import plot_temperatures
 
 def main():
     temperatures = collect_weather_data()
