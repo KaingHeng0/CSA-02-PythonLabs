@@ -1,6 +1,3 @@
-import matplotlib.pyplot as plt
-from plot_data import plot_temperatures
-
 def collect_weather_data():
     temperatures = []  # List to store the temperatures
     print("Enter daily temperatures (type 'done' to finish):")
